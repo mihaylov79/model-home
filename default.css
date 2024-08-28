@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+    body{
+        font: 14px/1.5 Lato, Verdana, sans-serif;
+        padding: 0.5em;
+        background-color: #c7d8c6;
+        
+    }
+
+    .header-container{
+        width: 100wv;
+        display: flex;
+        text-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #c7d8c6;
+       
+    }
+    
+
+    .offer{
+        display: flex;
+        text-wrap: wrap;
+        padding: 0.2em 0.5em;
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        font-style: italic;
+        /* background-color: #a9b7c0; */
+        /* border: 2px; */
+        /* border-radius: 0.3em;
+        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);   */
+
+    }
+
+    .offer img{
+        height: 1.2em;
+        margin-right: 0.5em;
+    }
+
+
+    .logo img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        padding: 0.5em;
+        padding-left: 0;
+        margin: auto 0.5em;
+        
+        width: 10em;
+        image-resolution: 200dpi;
+        border-radius: 0.3em;
+        background-color: #c7d8c6;
+        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+    }
+
+    .logo-fixed img{
+        display: none;
+    }
+
+  
+    .menu ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .menu ul li{
+        display: block;
+        text-align: center;
+        padding: 0 0.2em ;
+        margin: 0.5em 0.3em;
+       
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        /* background-color: rgb(206, 162, 247); */
+        /* border-radius: 0.3em; */
+        /* box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2); */
+
+    }
+
+    .menu a :hover{
+        color: white;
+    }
+
+    footer{
+        background-color: #c7d8c6;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5em;
+        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+        
+    }
+
+    .contact, .rights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: medium;
+    }
+
+    .rights img{
+        height: auto;
+        max-width: 10em;
+        padding-left: 3em;
+    }
+
+    .contact table{
+        margin-top: 0.75em;
+        margin-right: 0.5em;
+        padding-right: 0.5em;
+        background-color: #a9b7c0;
+        font-size: medium;
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+       
+        
+    }
+
+    .contact img{
+        height:2.5em;
+        padding: 0.5em;
+        margin-top: 0.2em;
+        background-color: #a9b7c0;
+    }
