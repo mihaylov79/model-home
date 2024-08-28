@@ -78,4 +78,14 @@
     .section1 > div , .list{
         flex-direction: column;
     }
+
+    .about-text{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .sw1 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
