@@ -17,8 +17,8 @@
 }
 
 .sw1 {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .about-text {
@@ -36,7 +36,7 @@
 
 
 .fp img{
-    max-width: 25em;
+    max-width: 15em;
     height: auto;
     padding:1em;
     justify-content: center;
@@ -45,23 +45,33 @@
 }
 
 .pic-grid {
-    width: 70wv;
+    
     display: flex;
-   
     justify-content: center;
     align-items: center;
     padding: 1em;
-   
 
 }
 
+
 .pic-grid img{
-    height:20em;
+    max-height:15em;
+    /* it was 20 before */
     padding: 1em;
     margin: 0;
 }
 
-@media (max-width: 650px) {
+/* @media(width < 1100px){
+
+    .pic-grid img{
+        max-height:15em;
+        padding: 1em;
+        margin: 0;
+    }
+
+} */
+
+@media (max-width: 750px) {
         
     body{
         font: 12px/1.5 Lato, Verdana, san-serif;
@@ -89,4 +99,11 @@
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    .pic-grid img{
+        max-height:20em;
+        padding: 1em;
+        margin: 0;
+    }
+
 }
