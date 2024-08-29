@@ -7,8 +7,8 @@
 
     body{
         font: 14px/1.5 Lato, Verdana, sans-serif;
-        padding: 0.5em;
         background-color: #c7d8c6;
+        width: 100wv;
         
     }
 
@@ -52,7 +52,7 @@
         display: flex;
         padding: 0.5em;
         padding-left: 0;
-        margin: auto 0.5em;
+        /* margin: auto 0.5em; */
         
         width: 10em;
         image-resolution: 200dpi;

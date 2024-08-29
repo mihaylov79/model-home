@@ -7,16 +7,13 @@
 
     body{
         font: 14px/1.5 Lato, Verdana, sans-serif;
-        padding: 0.5em;
+        /* padding: 0.5em; */
         background-color: #c7d8c6;
+        width: 100wv;
         
     }
 
     .header-container{
-        /* position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%; */
         width: 100wv;
         display: flex;
         text-wrap: nowrap;
@@ -24,8 +21,6 @@
         justify-content: space-between;
         align-items: center;
         background-color: #c7d8c6;
-        /* border-radius: 0.4em;
-        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2); */
        
     }
     
@@ -58,15 +53,13 @@
         display: flex;
         padding: 0.5em;
         padding-left: 0;
-        margin: auto 0.5em;
+        /* margin: auto 0.5em; */
         
         width: 10em;
         image-resolution: 200dpi;
         border-radius: 0.3em;
         background-color: #c7d8c6;
         box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
-        
-
     }
 
     .logo-fixed img{
@@ -81,7 +74,6 @@
 
     .menu ul li{
         display: block;
-        /* background-color:#a9b7c0; */
         text-align: center;
         padding: 0 0.2em ;
         margin: 0.5em 0.3em;
@@ -99,19 +91,17 @@
     }
 
     .menu a :hover{
-
         color: white;
-        /* background-color: #eee; */
     }
     
   .photo {
     background-image: url("https://images.unsplash.com/photo-1709486814423-9b4570144816?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    /* position: relative; */
+    
      width: 100wv;
-    height: 60vh;
-    background-size: cover;
-    background-position:center;
-  }
+     height: 60vh;
+     background-size: cover;
+     background-position:center;
+    }
 
     .photo{
         display: flex;
@@ -135,8 +125,6 @@
         font-style: italic;
         
     }
-
-   
 
     .photo ul li{
         color: black;
@@ -231,6 +219,13 @@
         background-color: #a9b7c0;
     }
 
+    /* footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+    } */
+
 
     @media (max-width: 650px) {
         
@@ -251,9 +246,7 @@
         }
     }
 
-
-
-
+  
 
     /* .section1-2::before {
         font-family: "Font Awesome 6 Free";
