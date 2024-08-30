@@ -1,0 +1,126 @@
+/* Amatic SC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); 
+/* Neucha */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap');
+
+
+/* .neucha-regular {
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.section1 h1, .section2 h1{
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+    color: #16123f;
+}
+
+.form-section{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.contact-form  {
+    
+    flex: 1 1 auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #c7d8c6;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    padding: 2em;
+}
+
+.contact-form fieldset{
+    display: block;
+    width: 40%;
+    border: none;
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+.contact-form legend{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem ;
+}
+
+.contact-form label{
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contact-form input{
+    display: block;
+    width: 60%;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    border: 2px solid #ccc;
+    
+}
+
+.contact-form input[type="submit"]{
+    border: none;
+    background: darkorange;
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+
+.contact-form .field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5em;
+
+}
+
+.contact-form .field label{
+    order: -1;
+}
+
+.contact-form input:required ~ label::after, 
+.contact-form textarea:required ~ label::after
+{
+    display: inline-block;
+    content: '*';
+    padding-left: 0.3em;
+    color: #c00;
+}
+
+.contact-info{
+    text-align: center;
+    margin-top: 3em;
+    font-family: Neucha;
+    font-size: large;
+}
+
+.email{
+    display: flex;
+    padding-left: 2em;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.email img{
+    margin-right: 0.5em;
+    height:2em
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+.map-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
