@@ -1,3 +1,9 @@
+/* Amatic SC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); 
+/* Neucha */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap');
+
+
 .section1 h1, .section2 h1{
     text-align: center;
     font-size: 2.5em;
@@ -19,6 +25,7 @@
 .sw1 {
     padding-left: 15%;
     padding-right: 15%;
+    font-family:Neucha;
 }
 
 .about-text {
@@ -62,12 +69,12 @@
 }
 
 
-
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+@media (width > 750px){
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+    }
 }
 
 @media (max-width: 750px) {
