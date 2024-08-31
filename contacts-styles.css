@@ -26,9 +26,11 @@
 .contact-info{
     text-align: center;
     margin-top: 3em;
-    font-family: Neucha;
+    /* font-family: Neucha; */
     font-size: large;
-    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2); ;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .email{
