@@ -1,3 +1,4 @@
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
 
@@ -9,12 +10,14 @@
     
 
     body{
-        font: 14px/1.5 Roboto, Verdana, sans-serif;
+        font: 14px/1.5 "Roboto", Verdana, sans-serif;
         /* padding: 0.5em; */
         background-color: #eee;
         width: 100wv;
         
     }
+
+
 
     .header-container{
         width: 100wv;
@@ -33,7 +36,7 @@
         text-wrap: wrap;
         padding: 0.2em 0.5em;
         color: black;
-        font-size: medium;
+        font-size: large;
         font-weight: bold;
         font-style: italic;
         /* background-color: #a9b7c0; */
@@ -87,7 +90,7 @@
         text-decoration: none;
         color: black;
         font-family: "Cuprum";
-        font-size: medium;
+        font-size: large;
     }
 
     .menu a :hover{
@@ -110,12 +113,19 @@
         
     }
 
-    .contact, .rights{
+    .contact, .contact-adreess, .rights{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         font-size: medium;
+        color: black;
     }
+
+    .contact-adreess p{
+        margin-top: 0.5em;
+    }
+
 
     .rights img{
         height: auto;
@@ -141,3 +151,23 @@
         margin-top: 0.2em;
         background-color: #eee;
     }
+
+    .offer p::before {
+        font-family: "FontAwesome";
+        content: "\f2a0";
+        display: inline-block;
+        padding-right: 0.5em;
+        vertical-align: middle;
+        font-weight: 900;
+        /* color: black; */
+     }
+
+     .contact table tr td p::before {
+        font-family: "FontAwesome";
+        content: "\f2a0";
+        display: inline-block;
+        padding-right: 0.5em;
+        vertical-align: middle;
+        /* font-weight: 900; */
+        /* color: black; */
+     }
