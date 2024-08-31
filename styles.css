@@ -1,5 +1,5 @@
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
 
 *{
@@ -10,7 +10,7 @@
     
 
     body{
-        font: 14px/1.5 Roboto, Verdana, sans-serif;
+        font: 14px/1.5 "Roboto", Verdana, sans-serif;
         /* padding: 0.5em; */
         background-color: #eee;
         width: 100wv;
@@ -26,8 +26,6 @@
         align-items: center;
         background-color: #eee;
         
-
-       
     }
     
 
@@ -201,13 +199,17 @@
         
     }
 
-    .contact, .rights{
+    .contact, .contact-addreess, .rights{
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: medium;
         color:black;
        
+    }
+
+    .contact-addreess p:first-of-type {
+        margin-top: 0.85em;
     }
 
     .rights img{
@@ -287,7 +289,7 @@
 
      .section1-2 h3::before {
         font-family: "FontAwesome";
-        content: "\e06c";
+        content: "\e4d8";
         display: flex;
         justify-content: center;
         font-size: 3em;

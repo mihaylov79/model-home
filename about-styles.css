@@ -12,12 +12,14 @@
 }
 
 .section1 h2{
- padding: 1em;
+ padding-left: 1em;
+ padding-right: 1em;
 }
 
 .section2 {
     display: flex;
     justify-content: space-around;
+    /* margin-bottom: 3em; */
     
     
 }
@@ -25,7 +27,10 @@
 .sw1 {
     padding-left: 15%;
     padding-right: 15%;
-    font-family:Neucha;
+    /* font-family:Neucha; */
+    margin-top: 4em;
+    margin-bottom: 2.5em;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
 }
 
 .about-text {
@@ -37,6 +42,7 @@
     font-size: large;
     padding-left: 20%;
     padding-right: 20%;
+    margin-bottom: 3em;
     
 }
 
@@ -69,13 +75,13 @@
 }
 
 
-@media (width > 750px){
+/* @media (width > 750px){
     footer{
         position: absolute;
         bottom: 0;
         width: 100vw;
     }
-}
+} */
 
 @media (max-width: 750px) {
         
