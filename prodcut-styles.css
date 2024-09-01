@@ -1,0 +1,86 @@
+
+.section1 h1, .section2 h1{
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+    color: black;
+}
+
+.section2 h3{
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    
+}
+
+.section2{
+    background-color: #eee;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+
+}
+
+.products-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.products-container > div{
+    display: flex;
+    margin-bottom: 2.5em;
+    padding: 1.5em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+}
+
+article ul{
+    padding-left: 0.5em;
+}
+
+article ul li {
+    list-style: "✔";
+    padding: 0.25em;
+}
+
+@media (max-width: 650px) {
+        
+    body{
+        font: 12px/1.5 "Roboto",Lato, Verdana, san-serif;
+    }
+
+    .products-container > div{
+        font-size: 1.2em;
+    }
+
+    .logo img{
+        display:none
+    }
+
+    .rights{
+        display: none;
+    }
+
+    .section1 > div , .list{
+        flex-direction: column;
+    }
+
+    .about-text{
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: medium;
+    }
+
+    .sw1 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .pic-grid img{
+        max-height:20em;
+        padding: 1em;
+        margin: 0;
+    }
+
+}
