@@ -47,7 +47,6 @@ Neucha
     padding-right: 20%;
     margin-bottom: 5em;
     
-    
 }
 
 
@@ -81,7 +80,7 @@ Neucha
         display: none;
     }
 
-    .section1 > div , .list{
+    .section1 > div {
         flex-direction: column;
     }
 
@@ -96,11 +95,6 @@ Neucha
         font-size: medium;
     }
 
-
-    /* .sw1 {
-        padding-left: 1em;
-        padding-right: 1em;
-    } */
 
     .pic-grid img{
         max-height:20em;
