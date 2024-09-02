@@ -11,7 +11,6 @@
 
     body{
         font: 14px/1.5 "Roboto", Verdana, sans-serif;
-        /* padding: 0.5em; */
         background-color: #eee;
         width: 100wv;
         
@@ -56,21 +55,15 @@
         left: 0;
         display: flex;
         padding: 0.5em;
-        padding-left: 0;
-        /* margin: auto 0.5em; */
-        
-        width: 10em;
+        padding-left: 0.5;
+        width: 12em;
         image-resolution: 200dpi;
         border-radius: 0.3em;
-        background-color: #eee;
+        background-color: #fff;
         box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
     }
 
-    .logo-fixed img{
-        display: none;
-    }
-
-  
+   
     .menu ul{
         display: flex;
         list-style: none;
@@ -89,11 +82,6 @@
         color: black;
         font-family: "Cuprum";
         font-size: large;
-        /* font-weight: light; */
-        /* font-weight: bold; */
-        /* background-color: rgb(206, 162, 247); */
-        /* border-radius: 0.3em; */
-        /* box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2); */
 
     }
 
@@ -123,8 +111,8 @@
     }
 
     .reason {
-        background-color: #eee(255, 255, 255);
-        background: rgba(255, 255, 255, 0.3);
+        background-color: rgb(116, 113, 113);
+        background: rgba(116, 113, 113, 0.3);
         padding: 3em;
         border-radius: 0.3em;
     }
@@ -150,13 +138,18 @@
     .section1, .section2{
         text-align: center;
         background-color: #fff;
+        margin-bottom: 2em;
         /* box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2); */
     }
+
+
     .section1 h1, .section2 h1{
         text-align: center;
         font-size: 2.5em;
         box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
         color: black;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
     }
 
     .section1 > div , .list{
@@ -166,15 +159,16 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 1em;
-        padding-bottom: 1em;
-        margin-right: 1em;
+        /* margin-top: 1em; */
+        padding-bottom: 2.5em;
+        padding-top: 2.5em;
+        /* margin-right: 1em; */
         
     }
 
     article > p{
         font-size:large;
-        margin:0.5em;
+        /* margin:0.5em; */
     }
     article > h3{
         margin-bottom: 1em;
@@ -236,13 +230,6 @@
         margin-top: 0.2em;
         background-color: #eee;
     }
-
-    /* footer{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-    } */
 
 
     @media (max-width: 650px) {

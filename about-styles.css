@@ -10,6 +10,9 @@ Neucha
     box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
     color: black;
 }
+.section1 h1{
+    background-color: #fff;
+}
 
 
 .section2 {
@@ -17,14 +20,14 @@ Neucha
     display: flex;
     justify-content: space-around;
     /* margin-bottom: 3em; */
-    
-    
 }
+
 
 .sw1 {
     text-align: center;
     margin-top: 5em;
     margin-bottom: 3.5em;
+    background-color: #fff;
     box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
 }
 

@@ -39,10 +39,6 @@
         font-size: large;
         font-weight: bold;
         font-style: italic;
-        /* background-color: #a9b7c0; */
-        /* border: 2px; */
-        /* border-radius: 0.3em;
-        box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);   */
 
     }
 
@@ -58,13 +54,11 @@
         left: 0;
         display: flex;
         padding: 0.5em;
-        padding-left: 0;
-        /* margin: auto 0.5em; */
-        
-        width: 10em;
+        padding-left: 0.5;
+        width: 12em;
         image-resolution: 200dpi;
         border-radius: 0.3em;
-        background-color: #eee;
+        background-color: #fff;
         box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
     }
 
