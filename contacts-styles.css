@@ -22,10 +22,17 @@
 .contact-info{
     text-align: center;
     margin-top: 3em;
-    font-size: large;
     box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
     padding-left: 7%;
     padding-right: 7%;
+}
+
+.contact-info > h2:first-of-type{
+    padding-top: 1em;
+}
+
+.contact-info > h2:last-of-type{
+    padding-bottom: 1em;
 }
 
 .email{
@@ -55,7 +62,7 @@
 }
 
 h2 {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 form {
@@ -175,7 +182,7 @@ input[type="submit"]:hover {
 @media (max-width: 650px) {
         
     body{
-        font: 12px/1.5 Lato, Verdana, san-serif;
+        font: 12px/1.5 "Roboto", Verdana, san-serif;
     }
 
     .logo img{
