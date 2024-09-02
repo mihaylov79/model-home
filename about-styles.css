@@ -11,10 +11,6 @@ Neucha
     color: black;
 }
 
-.section1 h2{
- padding-left: 1em;
- padding-right: 1em;
-}
 
 .section2 {
     margin-top: 1.5em;
@@ -26,9 +22,6 @@ Neucha
 }
 
 .sw1 {
-    /* padding-left: 18%;
-    padding-right: 15%; */
-    /* font-family:Neucha; */
     text-align: center;
     margin-top: 5em;
     margin-bottom: 3.5em;
@@ -57,12 +50,6 @@ Neucha
     
 }
 
-.fp img{
-    max-width: 15em;
-    height: auto;
-    padding:1em;
-    justify-content: center;
-}
 
 .pic-grid {
     
@@ -76,7 +63,6 @@ Neucha
 
 .pic-grid img{
     max-height:15em;
-    /* it was 20 before */
     padding: 1em;
     margin: 0;
 }
@@ -99,11 +85,17 @@ Neucha
         flex-direction: column;
     }
 
+    .section1 h2{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
     .about-text{
         padding-left: 1em;
         padding-right: 1em;
         font-size: medium;
     }
+
 
     /* .sw1 {
         padding-left: 1em;
