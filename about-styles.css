@@ -1,7 +1,7 @@
-/* Amatic SC */
+/* Amatic SC
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); 
-/* Neucha */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap');
+Neucha
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&display=swap'); */
 
 
 .section1 h1, .section2 h1{
@@ -17,6 +17,7 @@
 }
 
 .section2 {
+    margin-top: 1.5em;
     display: flex;
     justify-content: space-around;
     /* margin-bottom: 3em; */
@@ -25,16 +26,25 @@
 }
 
 .sw1 {
-    padding-left: 18%;
-    padding-right: 15%;
+    /* padding-left: 18%;
+    padding-right: 15%; */
     /* font-family:Neucha; */
-    margin-top: 4em;
-    margin-bottom: 2.5em;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3.5em;
     box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
 }
 
+.sw1 h2:first-of-type{
+    padding-top: 1em;
+}
+
+.sw1 h2:last-of-type{
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
 .about-text {
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -42,7 +52,8 @@
     font-size: large;
     padding-left: 20%;
     padding-right: 20%;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
+    
     
 }
 
@@ -73,7 +84,7 @@
 @media (max-width: 750px) {
         
     body{
-        font: 12px/1.5 Lato, Verdana, san-serif;
+        font: 12px/1.5 "Roboto", Verdana, san-serif;
     }
 
     .logo img{
@@ -94,10 +105,10 @@
         font-size: medium;
     }
 
-    .sw1 {
+    /* .sw1 {
         padding-left: 1em;
         padding-right: 1em;
-    }
+    } */
 
     .pic-grid img{
         max-height:20em;
