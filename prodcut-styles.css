@@ -7,9 +7,11 @@
 }
 
 .section2 h3{
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     font-size: large;
     
 }
@@ -25,12 +27,12 @@
     margin-right: 10%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 
 .products-container > div{
     display: flex;
-    margin-bottom: 2.5em;
+    margin-bottom: 3.5em;
     padding: 1.5em;
     border-radius: 0.3em;
     box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
@@ -40,13 +42,37 @@
     margin-bottom: 0.5em;
 }
 
+.products-container .express > section > h4{
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2);
+}
+
 article ul{
+    font-weight: 500;
     padding-left: 0.5em;
 }
 
 article ul li {
     list-style: "✔";
     padding: 0.25em;
+}
+
+article ul ul{
+    font-weight: normal;
+    padding-left: 0.5em;
+}
+
+article ul ul li {
+    list-style: none;
+    padding: 0.25em;
+}
+
+.products-container > div{
+    font-size: 1.2em;
 }
 
 @media (max-width: 650px) {
