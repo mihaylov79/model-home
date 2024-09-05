@@ -55,7 +55,7 @@
         left: 0;
         display: flex;
         padding: 0.5em;
-        padding-left: 0.5;
+        /* padding-left: 0.5; */
         width: 12em;
         image-resolution: 200dpi;
         border-radius: 0.3em;
